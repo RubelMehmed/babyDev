@@ -1,5 +1,6 @@
 body {
     font-family: 'Merienda', cursive;
+    margin: 0px;
 }
 
 h1 {
@@ -36,6 +37,7 @@ section {
 
 .half-width {
     width: 50%;
+    padding-left: 2px;
 }
 
 .link-button {
