@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 45px;
     color: rgb(196, 240, 36);
 }
 
@@ -31,20 +31,57 @@ h4 {
     color: blue;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin: 150px;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 2px;
+    padding: 5px;
 }
 
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, blue);
-    color: azure;
-    font: weight 400px;
+    color: rgb(201, 228, 228);
+    font-weight: 400;
     padding: 4px 20px;
-    border-radius: 3px;
+    border-radius: 4px;
+
+}
+
+.developer-box {
+    width: 40%;
+    box-shadow: 10px 8px 40px rgb(129, 202, 32);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.experience-area {
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+}
+
+.experience-area {
+    font-size: 42px;
+    font-weight: 500px;
+
+}
+
+#web-dev-experience {
+    border-left: 5px solid;
+    border-color: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: right;
 }
